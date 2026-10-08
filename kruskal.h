@@ -1,10 +1,8 @@
-//ANTONIS TSIGGERHS 2026
-//06/06/2025
-//ERGASIA 3 OMADA 8
+//ANTONIS TSIGGERHS 
 #ifndef TEST_ERGASIA3_KRUSKAL_H
 #define TEST_ERGASIA3_KRUSKAL_H
 
-#endif //TEST_ERGASIA3_KRUSKAL_H
+#endif 
 #include <stdio.h>
 #include <stdlib.h>
 
