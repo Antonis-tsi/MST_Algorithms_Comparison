@@ -1,6 +1,4 @@
-//ANTONIS TSIGGERHS 2026
-//06/06/2025
-//ERGASIA 3 OMADA 8
+
 
 #include <limits.h>
 #include <stdio.h>
