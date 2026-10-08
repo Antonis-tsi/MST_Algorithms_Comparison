@@ -4,7 +4,7 @@ This repository contains an efficient C implementation and performance compariso
 
 The goal of this project is to evaluate the execution time and structural approach of each algorithm when applied to randomly generated connected graphs with varying edge densities.
 
-## 🚀 Features
+## Features
 
 * **Algorithm Implementations:**
   * **Prim's Algorithm:** Implemented using Adjacency Lists and a priority queue logic for optimal space complexity and fast neighbor iteration.
@@ -13,19 +13,19 @@ The goal of this project is to evaluate the execution time and structural approa
 * **Random Graph Generator:** Generates random graphs with customizable parameters (number of nodes and sparsity/percentage of removed edges) to robustly test the algorithms under different conditions.
 * **Performance Profiling:** Built-in CPU time measurement for each algorithm to directly compare their computational efficiency.
 
-## 🛠️ Built With
+## Built With
 
 * **Language:** C (Standard C11)
 * **Build System:** CMake
 
-## 📊 Performance Insights
+## Performance Insights
 
 Based on the execution benchmarks conducted in this project:
 - **Prim's Algorithm** utilizing Adjacency Lists consistently proved to be highly efficient in both space and time, especially for sparse graphs. It avoids the overhead of traversing a full $V \times V$ matrix.
 - **Kruskal's Algorithm** performed exceptionally well due to the highly optimized Union-Find operations, making it extremely competitive for graphs where edge sorting is fast.
 - **Reverse-Delete**, while structurally interesting and a great educational tool for understanding graph cuts, was predictably the slowest due to the intensive DFS connectivity checks required after every edge deletion.
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 * A C compiler (GCC, Clang, etc.)
