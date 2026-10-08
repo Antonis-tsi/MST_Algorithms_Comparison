@@ -4,7 +4,7 @@ This repository contains an efficient C implementation and performance compariso
 
 The goal of this project is to evaluate the execution time and structural approach of each algorithm when applied to randomly generated connected graphs with varying edge densities.
 
-## 🚀 Features
+## Features
 
 * **Algorithm Implementations:**
   * **Prim's Algorithm:** Implemented using Adjacency Lists and a priority queue logic for optimal space complexity and fast neighbor iteration.
@@ -13,7 +13,7 @@ The goal of this project is to evaluate the execution time and structural approa
 * **Random Graph Generator:** Generates random graphs with customizable parameters (number of nodes and sparsity/percentage of removed edges) to robustly test the algorithms under different conditions.
 * **Performance Profiling:** Built-in CPU time measurement for each algorithm to directly compare their computational efficiency.
 
-## 📊 Performance Benchmark
+## Performance Benchmark
 
 The algorithms were tested on randomly generated graphs (e.g., 150 nodes with a 20% random edge removal rate). Below is a summary of the average execution times observed during testing:
 
@@ -23,16 +23,16 @@ The algorithms were tested on randomly generated graphs (e.g., 150 nodes with a 
 | **Prim** | ~ 0.164 ms |
 | **Reverse-Delete** | ~ 30.545 ms |
 
-### 🔍 Key Observations
+### Key Observations
 * **Prim with Adjacency Lists:** Using an adjacency list instead of an adjacency matrix significantly reduces the space complexity, especially for sparse graphs. It only stores existing edges, avoiding the $V \times V$ memory overhead. Furthermore, iterating over a vertex's neighbors is much faster, as it avoids scanning an entire matrix row/column.
 * **Kruskal's Efficiency:** Kruskal's algorithm performs exceptionally well in practice due to the highly optimized Union-Find operations.
 * **Reverse-Delete Overhead:** While structurally interesting and a great educational tool for understanding graph cuts, it is predictably the slowest due to the intensive DFS connectivity checks required after every edge deletion.
 
-## 🛠️ Built With
+## Built With
 * **Language:** C (Standard C11)
 * **Build System:** CMake
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 * A C compiler (GCC, Clang, etc.)
