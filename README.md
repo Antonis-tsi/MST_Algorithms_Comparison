@@ -35,8 +35,8 @@ Based on the execution benchmarks conducted in this project:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Graph-MST-Performance-Analysis.git
-   cd Graph-MST-Performance-Analysis
+   git clone https://github.com/Antonis-tsi/MST_Algorithms_Comparison.git
+   cd MST_Algorithms_Comparison
    ```
 2. Build the project using CMake:
    ```bash
